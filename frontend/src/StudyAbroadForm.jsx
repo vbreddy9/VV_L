@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -157,8 +158,8 @@ const StudyAbroadForm = () => {
               />
               <span>
                 I have read and agreed to{" "}
-                <a href="/terms-and-conditions" className="text-blue-500 underline">T&C</a> and{" "}
-                <a href="/privacy-policy" className="text-blue-500 underline">Privacy Policy</a>.
+                <Link to="/terms-and-conditions" className="text-blue-500 underline">T&C</Link> and{" "}
+                <Link to="/privacy-policy" className="text-blue-500 underline">Privacy Policy</Link>.
               </span>
             </div>
             {errors.agreeTerms && <p className="text-red-500 text-sm">{errors.agreeTerms}</p>}
