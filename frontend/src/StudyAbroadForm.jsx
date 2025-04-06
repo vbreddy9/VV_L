@@ -157,8 +157,8 @@ const StudyAbroadForm = () => {
               />
               <span>
                 I have read and agreed to{" "}
-                <a href="/terms-and-conditions" className="text-blue-500 underline">T&C</a> and{" "}
-                <a href="/privacy-policy" className="text-blue-500 underline">Privacy Policy</a>.
+                <a href="/home/terms-and-conditions" className="text-blue-500 underline">T&C</a> and{" "}
+                <a href="/home/privacy-policy" className="text-blue-500 underline">Privacy Policy</a>.
               </span>
             </div>
             {errors.agreeTerms && <p className="text-red-500 text-sm">{errors.agreeTerms}</p>}
