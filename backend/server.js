@@ -62,7 +62,6 @@ const sendAutoReply = async (userEmail, userName) => {
 
   <div style="margin-top: 30px; text-align: center; font-size: 13px; color: #888;">
     <p style="margin-bottom: 6px;">&copy; ${new Date().getFullYear()} Vidhyavaaradhi Overseas Consultancy</p>
-    <p style="margin-bottom: 6px;"><a href="https://abroad.vidhyavaaradhi.com/terms-and-conditions" style="color: #888; text-decoration: underline;">Terms & Conditions</a> | <a href="https://abroad.vidhyavaaradhi.com/privacy-policy" style="color: #888; text-decoration: underline;">Privacy Policy</a></p>
     <p>Hyderabad, India</p>
   </div>
 </div>
