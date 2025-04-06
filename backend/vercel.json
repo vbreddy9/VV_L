@@ -9,8 +9,9 @@
     { "src": "/home/send-email", "dest": "/server.js" },
 
     { "handle": "filesystem" },
+
     {
-      "src": "/(.*)",
+      "src": ".*",
       "dest": "/build/index.html"
     }
   ]
