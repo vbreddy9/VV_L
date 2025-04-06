@@ -37,7 +37,9 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home/privacy-policy" element={<Navigate to="/privacy-policy" />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/home/terms-and-conditions" element={<Navigate to="/terms-and-conditions" />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/home/thank-you" element={<Navigate to="/thank-you" />} />
           <Route path="/thank-you" element={<ThankYou />} />
