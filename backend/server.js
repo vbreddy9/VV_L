@@ -44,7 +44,17 @@ const sendAutoReply = async (userEmail, userName) => {
     <p style="font-size: 16px; color: #333;">
       We're excited to connect with you and will get in touch shortly to assist with your study abroad journey.
     </p>
-
+    <div style="background-color: #ffffff; margin-top: 25px; padding: 25px 20px; border-radius: 8px;">
+    <h3 style="color: #2e5aac; margin-bottom: 15px;">🌟 Why Choose Us?</h3>
+    <ul style="list-style: none; padding-left: 0; color: #333; font-size: 15px;">
+      <li>✅ Expert guidance for top universities</li>
+      <li>🎓 Scholarship opportunities</li>
+      <li>⚡ Quick offer letter processing</li>
+      <li>🛂 Assistance with visa & accommodation</li>
+    </ul>
+    <p style="margin-top: 15px; font-size: 15px; color: #333;"><strong>For urgent assistance:</strong> <a href="tel:+919100050502" style="color: #2e5aac; text-decoration: none;">+91 91000 50502</a></p>
+    <p style="font-size: 15px; color: #333;">🌐 Visit our website: <a href="https://abroad.vidhyavaaradhi.com" target="_blank" style="color: #2e5aac; text-decoration: underline;">Vidhyavaaradhi Overseas Consultancy</a></p>
+  </div>
     <div style="margin-top: 25px; padding: 15px; background-color: #f1f5ff; border-left: 4px solid #2e5aac; border-radius: 5px;">
       <p style="margin: 0; font-size: 15px;">📞 Call us anytime:</p>
       <p style="margin: 0;"><strong><a href="tel:+919100050502" style="color: #2e5aac; text-decoration: none;">+91 91000 50502</a></strong></p>
