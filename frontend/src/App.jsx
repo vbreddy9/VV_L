@@ -1,4 +1,5 @@
 import React from "react";
+import { Navigate } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -38,7 +39,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-          <Route path="/thank-you" element={<ThankYou />} />
+          // Inside your <Routes>
+          <Route path="/home/thank-you" element={<Navigate to="/thank-you" />} />
         </Routes>
         <Footer />
       </div>
