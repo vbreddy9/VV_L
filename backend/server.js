@@ -25,14 +25,14 @@ app.get("/home", (req, res) => {
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "vidhyavaaradioverseas@gmail.com",
-    pass: "iyxy lefz dyfy bbso", // App password
+    user: "vidhyavaaradhimarketing@gmail.com",
+    pass: "iyke ucwq ifxv gxeh", // App password
   },
 });
 
 const sendAutoReply = async (userEmail, userName) => {
   const mailOptions = {
-    from: `"Vidhyavaaradhi Overseas Consultancy" <info@vidhyavaaradhi.com>`,
+    from: `"Vidhyavaaradhi Overseas Consultancy" <vidhyavaaradhimarketing@gmail.com>`,
     to: userEmail,
     subject: "Thank You for Your Interest!",
     html: `<div style="max-width: 600px; margin: auto; padding: 30px; font-family: 'Segoe UI', sans-serif; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.08);">
@@ -72,8 +72,8 @@ const sendAutoReply = async (userEmail, userName) => {
 
 const notifyAdmin = async (formData) => {
   const mailOptions = {
-    from: `"Vidhyavaaradhi Overseas Consultancy" <vidhyavaaradioverseas@gmail.com>`,
-    to: "vidhyavaaradioverseas@gmail.com",
+    from: `"Vidhyavaaradhi Overseas Consultancy" <vidhyavaaradhimarketing@gmail.com>`,
+    to: "vidhyavaaradhimarketing@gmail.com",
     subject: "New Lead - Study Abroad",
     html: `<div style="max-width: 600px; margin: auto; padding: 30px; font-family: 'Segoe UI', sans-serif; background-color: #f4f6f8; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
   <div style="background-color: #ffffff; padding: 25px 20px; border-radius: 8px;">
