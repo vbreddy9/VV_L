@@ -86,7 +86,10 @@ const notifyAdmin = async (formData) => {
     <p style="font-size: 15px; color: #333;"><strong>Pincode:</strong> ${formData.pincode}</p>
     <p style="font-size: 15px; color: #333;"><strong>IP Address:</strong> ${formData.ip}</p>
   </div>
-
+  <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;" />
+  <p style="font-size: 15px; color: #d32f2f; font-weight: bold; margin-bottom: 10px;">
+    Note: Please follow up with this lead at the earliest.
+  </p>
   <div style="margin-top: 30px; text-align: center; font-size: 13px; color: #888;">
     <p style="margin-bottom: 6px;">&copy; ${new Date().getFullYear()} Vidhyavaaradhi Overseas Consultancy</p>
     <p style="margin-bottom: 6px;">
