@@ -39,7 +39,6 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-          // Inside your <Routes>
           <Route path="/home/thank-you" element={<Navigate to="/thank-you" />} />
         </Routes>
         <Footer />
