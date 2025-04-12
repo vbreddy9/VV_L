@@ -61,14 +61,14 @@ const StudyAbroadForm = () => {
     if (!validateForm()) return;
     setIsSubmitting(true);
 
-    fetch("https://api.vidhyavaaradhi.com/send-email", {
+    fetch("https://api.vidhyavaaradhi.com/home/send-email", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
     })
       .then((response) => response.json())
       .then(() => {
-        navigate("/thank-you");
+        navigate("/home/thank-you");
       })
       .catch((error) => {
         console.error("Error sending email:", error);
