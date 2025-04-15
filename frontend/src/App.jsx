@@ -15,6 +15,7 @@ import StudyAbroad from "./StudyAbroad";
 import PrivacyPolicy from "./PrivacyPolicy";
 import TermsAndConditions from "./TermsAndConditions";
 import ThankYou from "./ThankYou";
+import ConsentBanner from './ConsentBanner';
 
 const Home = () => (
   <>
@@ -26,6 +27,7 @@ const Home = () => (
     <SuccessStories />
     <StudyAbroad />
     <FAQ />
+    <ConsentBanner />
     <WhatsAppButton />
   </>
 );
